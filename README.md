@@ -99,6 +99,7 @@ C. 如果有明显逻辑问题或表达风险，请单独指出。
 ## 七、文献综述结构重组 Prompt
 ### 适合文献综述结构混乱时使用。
 请根据下面内容重新组织 literature review 的结构。
+
 <以下内容建议自我总结梳理后改>
 建议结构：
 2.1 Evidence on eVTOL adoption and public acceptance
@@ -118,6 +119,7 @@ C. 如果有明显逻辑问题或表达风险，请单独指出。
 ## 八、Introduction 专用 Prompt
 ### 适合引言整体润色。
 请将下面的 introduction 改写成更适合 <你想投的期刊> 的版本。
+
 <以下内容建议自我总结梳理后改>
 逻辑要求：
 1. 第一段说明 eVTOL 的交通意义，但不要过度宣传；
