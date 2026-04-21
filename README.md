@@ -1,6 +1,6 @@
 # paper-polishing
-##一、总控 Prompt：整篇论文深度润色
-###适合一开始把全文或整章交给模型时使用。
+## 一、总控 Prompt：整篇论文深度润色
+### 适合一开始把全文或整章交给模型时使用。
 你是一名交通运输领域英文论文润色专家，熟悉 Transportation Research Part A: Policy and Practice 的写作风格。请对下面的论文内容进行深度润色。
 
 总体目标：
