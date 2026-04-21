@@ -1,8 +1,8 @@
 # paper-polishing
 ## contents
-## 一、总控 Prompt：整篇论文深度润色
-## 二、段落逻辑重构 Prompt
-## 三、去中式英语 Prompt
+- [一、总控 Prompt：整篇论文深度润色](#一总控-prompt整篇论文深度润色)
+- [二、段落逻辑重构 Prompt](#二段落逻辑重构-prompt)
+- [三、去中式英语 Prompt](#三去中式英语-prompt)
 
 
 ## 一、总控 Prompt：整篇论文深度润色
