@@ -8,6 +8,12 @@
 - [六、文献综述专用 Prompt](#六文献综述专用-prompt)
 - [七、文献综述结构重组 Prompt](#七文献综述结构重组-prompt)
 - [八、Introduction 专用 Prompt](#八Introduction-专用-prompt)
+- [九、贡献点润色 Prompt](#九贡献点润色-prompt)
+- [十、Methodology 专用 Prompt](#十Methodology-专用-prompt)
+- [十一、Results and Discussion 专用 Prompt](#十一Results and Discussion-专用-prompt)
+- [十二、Policy Implications 专用 Prompt（仅适用于特定方向）](#十二policy-implications-专用-prompt仅适用于特定方向)
+- [十三、Conclusion 专用 Prompt](#十三conclusion-专用-prompt)
+- [十四、Abstract 专用 Prompt](#十四abstract-专用-prompt)
 
 
 
@@ -136,3 +142,91 @@ C. 如果有明显逻辑问题或表达风险，请单独指出。
 3. 不要写得像 AI 润色；
 4. 不要重复 eVTOL adoption / policy design / evidence 等词；
 5. 保持正式、简洁、政策导向。
+## 九、贡献点润色 Prompt
+### 适合 contributions 写得抽象时使用。
+请重新润色下面的 contribution paragraph，使每个贡献点更清楚、更具体。
+
+<以下内容建议自我总结梳理后改>
+
+要求：
+1. 不要只写抽象判断，如 “treats eVTOL as both a behavioral and policy problem”；
+2. 每个贡献点要说明本文具体做了什么；
+3. 第一贡献点应强调：本文不是只测量接受度或预测需求，而是把 adoption barriers 连接到 policy design；
+4. 第二贡献点应强调：KG 作为 SP evidence 和 LLM reasoning 之间的中间层，提高约束性和可解释性；
+5. 第三贡献点应强调：借鉴相似新兴交通方式的政策经验，形成可扩展的早期政策设计框架；
+6. 语言简洁，不要过度拔高。
+## 十、Methodology 专用 Prompt
+### 适合方法章节太流水账、口语化时使用。
+请润色下面的 methodology，使其更像正式英文期刊的方法章节。
+
+要求：
+1. 先说明方法设计逻辑，再说明具体步骤；
+2. 减少 “First, Second, Third” 的机械说明；
+3. 将重复的小步骤适当合并；
+4. 保留公式、变量定义、模型假设和关键流程；
+5. 语言正式、清楚、可复现；
+6. 避免口语化表达，如 “the next step”“this process has three stages”；
+7. 不要写成 AI 工具说明书；
+8. 对 <组合模块> 的描述要强调它们在本文方法中的功能，而不是泛泛介绍技术。
+## 十一、Results and Discussion 专用 Prompt
+### 适合结果和讨论部分整体润色。
+请将下面的 Results and Discussion 改写得更适合 <你想投的期刊>。
+
+<以下内容建议自我总结梳理后改>
+
+要求：
+1. 每段先给出核心发现，再解释机制，最后自然引出政策含义；
+2. 不要机械罗列系数；
+3. 减少 “A affects B, indicating...” 的重复句式；
+4. 政策建议必须有结果依据，不要泛泛建议；
+5. 增加适度的讨论深度，包括可信度、适用边界和政策依据；
+6. 避免口语化表达；
+7. 降低 AI 味道，不要频繁使用模板句；
+8. 保留关键系数、显著性结论和图表引用。
+## 十二、Policy Implications 专用 Prompt（仅适用于特定方向）
+### 适合政策建议像清单时使用。
+请重写下面的 policy implications，使其逻辑更集中，不像建议清单。
+
+建议主线：
+1. 对 policymakers：透明安全治理、差异化沟通、门到门可达性；
+2. 对 operators：价格门槛、全链条服务体验、用户认知建立；
+3. 每条建议都要对应前文结果，而不是泛泛提出；
+4. 说明适用边界，避免过度泛化；
+5. 语言正式、简洁，不要口语化；
+6. 减少 “should therefore” 的重复使用。
+## 十三、Conclusion 专用 Prompt
+### 适合 conclusion 过散、过抽象时使用。
+请将下面的 conclusion 重新组织为四个部分：
+
+1. 本文做了什么；
+2. 模型或方法表现如何；
+3. 得到哪些关键结论；
+4. 未来研究方向。
+
+要求：
+1. 不要把背景、方法、贡献、政策建议、局限全部散开堆放；
+2. 减少抽象表达，如 “systematic framework”“broader relevance”“structured pathway”；
+3. 用更具体的语言说明研究发现和意义；
+4. 未来研究要具体，如扩展知识图谱、更多城市验证、从首次使用到持续使用<建议总结后更换>；
+5. 语言凝练、正式、自然。
+## 十四、Abstract 专用 Prompt
+### 适合摘要润色和拔高。
+请根据论文内容撰写或润色 abstract，使其适合 <你想投的期刊>。
+
+<以下内容建议自我总结梳理后改>
+
+结构要求：
+1. 研究背景：eVTOL 的交通意义和部署挑战；
+2. 研究缺口：已有研究关注接受度和需求，但 behavioral evidence 与 policy design 的连接不足；
+3. 方法：SP survey, causal network, knowledge graph, and KG-enhanced LLM；
+4. 数据：说明样本来源和核心规模；
+5. 结果：概括主要影响因素和模型比较结果；
+6. 政策意义：安全治理、价格可达性、门到门整合、差异化沟通；
+7. 贡献：连接 public acceptance analysis 与 policy design。
+
+语言要求：
+1. 不要太简单；
+2. 不要过度抽象；
+3. 不要重复 large language model；
+4. 避免中式英语；
+5. 控制在 180–250 词左右。
