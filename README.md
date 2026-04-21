@@ -10,7 +10,7 @@
 - [八、Introduction 专用 Prompt](#八Introduction-专用-prompt)
 - [九、贡献点润色 Prompt](#九贡献点润色-prompt)
 - [十、Methodology 专用 Prompt](#十Methodology-专用-prompt)
-- [十一、Results and Discussion 专用 Prompt](#十一Results and Discussion-专用-prompt)
+- [十一、Results and Discussion 专用 Prompt](#十一results-and-discussion-专用-prompt)
 - [十二、Policy Implications 专用 Prompt（仅适用于特定方向）](#十二policy-implications-专用-prompt仅适用于特定方向)
 - [十三、Conclusion 专用 Prompt](#十三conclusion-专用-prompt)
 - [十四、Abstract 专用 Prompt](#十四abstract-专用-prompt)
